@@ -160,4 +160,4 @@ async function withdrawETH(walletId, toAddress, amount) {
 }
 
 // Export the functions for use as a module
-module.exports = { createWallet, getDepositAddress, withdrawETH };
+module.exports = { signRequest, apiRequest, createWallet, getDepositAddress, withdrawETH };
